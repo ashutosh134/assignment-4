@@ -28,16 +28,11 @@ border-bottom:3px solid gray;
     display:flex;
     align-items: center;
     justify-content:space-between;
-    
-   
-
 }
 
 .left{
     width:30%;
-    height:80px;
-    
-    
+    height:80px;  
 }
 
 .left img{
@@ -96,9 +91,7 @@ border-bottom:3px solid gray;
     height:200px;
     background-image: url(./outdoor-swimming-pool-with-umbrella-chair-lounge-around-there-leisure-travel.jpg);
     background-size:contain;
-    background-position:center;
-    
-    
+    background-position:center;   
 }
 
 .div-2{
@@ -106,8 +99,7 @@ border-bottom:3px solid gray;
     height:40px;
     display:flex;
     align-items: center;
-    justify-content: space-between;
-   
+    justify-content: space-between;  
 }
 
 .div-3{
@@ -116,9 +108,6 @@ border-bottom:3px solid gray;
     display:flex;
     align-items:end;
     justify-content:center;
-   
-  
-
 }
 
 .footer{
@@ -156,10 +145,7 @@ border-bottom:3px solid gray;
     display:flex;
     align-items:center;
     justify-content:center;
-    flex-direction:column;
-
-
-    
+    flex-direction:column;   
 }
 .box-4{
     width:30%;
@@ -211,5 +197,78 @@ border-bottom:3px solid gray;
 
 }
    
+
+
+@media (max-width:480px) {
+    .main-container{
+        width:100%;
+        height:auto;
+        padding:5px;
+        
+
+    }
+    .container{
+        width:100%;
+        padding-inline:10px;
+    }
+
+    .left img{
+        width:200px;
+        height:100px;
+    }
+    .right ul li{
+       display:none;
+    }
+    .div-1{
+        width:100%;
+        padding:10px;
+    
+    }
+    .div-1 h1{
+        font-size:30px;
+    }
+    .div-1 h3{
+        font-size:20px;
+    }
+    .text-part p{
+        display:none;
+
+   }
+
+   .box-1 h1{
+    font-size:20px;
+   }
+
+   .box-1 h4{
+    font-size:15px;
+   }
+
+   .box-2 h1{
+    font-size:15px;
+   }
+
+   .box-2 h4{
+    font-size:15px;
+   }
+
+   .box-3 h1{
+    font-size:15px;
+   }
+
+   .box-3 h4{
+    font-size:15px;
+   }
+
+   .box-4 h1{
+    font-size:20px;
+   }
+
+   .box-4 h4{
+    font-size:15px;
+   }
+
+}
+   
+
 
 
